@@ -23,6 +23,8 @@ class DetailViewController: UIViewController {
         let description = item?.description ?? ""
         
         titleLabel.text = title
+        titleLabel.accessibilityValue = title;
+        
         descriptionLabel.text = description
     }
 }

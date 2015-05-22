@@ -34,6 +34,20 @@
                ReferencedContainer = "container:Continuous Integration Test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FF733BB31B0F758E009138A0"
+               BuildableName = "Continuous Integration Test UI Tests.xctest"
+               BlueprintName = "Continuous Integration Test UI Tests"
+               ReferencedContainer = "container:Continuous Integration Test.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "FF72FE7C1B0E2E0500B9B866"
                BuildableName = "Continuous Integration TestTests.xctest"
                BlueprintName = "Continuous Integration TestTests"
+               ReferencedContainer = "container:Continuous Integration Test.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FF733BB31B0F758E009138A0"
+               BuildableName = "Continuous Integration Test UI Tests.xctest"
+               BlueprintName = "Continuous Integration Test UI Tests"
                ReferencedContainer = "container:Continuous Integration Test.xcodeproj">
             </BuildableReference>
          </TestableReference>

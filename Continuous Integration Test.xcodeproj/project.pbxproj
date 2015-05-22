@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FE7FEB12C725A8BF3D6095F /* libPods-Continuous Integration Test UI Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA85D2EE8AD2F5C7D452FA2 /* libPods-Continuous Integration Test UI Tests.a */; };
+		FF4BA8701B0F7F0200374B86 /* KIFTestActor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6FD25C1B0F7670005370BA /* KIFTestActor+Additions.m */; };
+		FF6FD26D1B0F7E7B005370BA /* UITestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF733BB81B0F758E009138A0 /* UITestCase.m */; };
 		FF72FE6E1B0E2E0500B9B866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FE6D1B0E2E0500B9B866 /* AppDelegate.swift */; };
 		FF72FE701B0E2E0500B9B866 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FE6F1B0E2E0500B9B866 /* TableViewController.swift */; };
 		FF72FE731B0E2E0500B9B866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF72FE711B0E2E0500B9B866 /* Main.storyboard */; };
@@ -20,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FF6FD2681B0F7E4C005370BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF72FE601B0E2E0500B9B866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF72FE671B0E2E0500B9B866;
+			remoteInfo = "Continuous Integration Test";
+		};
 		FF72FE7E1B0E2E0500B9B866 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FF72FE601B0E2E0500B9B866 /* Project object */;
@@ -30,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		916FF84C041DA276B0A1FD08 /* Pods-Continuous Integration Test UI Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Continuous Integration Test UI Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Continuous Integration Test UI Tests/Pods-Continuous Integration Test UI Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C18D910BBD898F8B6D327D4B /* Pods-Continuous Integration Test UI Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Continuous Integration Test UI Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Continuous Integration Test UI Tests/Pods-Continuous Integration Test UI Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CCA85D2EE8AD2F5C7D452FA2 /* libPods-Continuous Integration Test UI Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Continuous Integration Test UI Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6FD25B1B0F7670005370BA /* KIFTestActor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestActor+Additions.h"; sourceTree = "<group>"; };
+		FF6FD25C1B0F7670005370BA /* KIFTestActor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestActor+Additions.m"; sourceTree = "<group>"; };
+		FF6FD2621B0F7E4C005370BA /* Continuous Integration Test UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Continuous Integration Test UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6FD2651B0F7E4C005370BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF72FE681B0E2E0500B9B866 /* Continuous Integration Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Continuous Integration Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF72FE6C1B0E2E0500B9B866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF72FE6D1B0E2E0500B9B866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +60,18 @@
 		FF72FE921B0E2EBB00B9B866 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		FF72FE961B0E324200B9B866 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FF733BAE1B0F2D05009138A0 /* ui.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ui.js; sourceTree = "<group>"; };
+		FF733BB81B0F758E009138A0 /* UITestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FF6FD25F1B0F7E4C005370BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE7FEB12C725A8BF3D6095F /* libPods-Continuous Integration Test UI Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FF72FE651B0E2E0500B9B866 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,13 +89,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2898392F089EC44ACD3928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				916FF84C041DA276B0A1FD08 /* Pods-Continuous Integration Test UI Tests.debug.xcconfig */,
+				C18D910BBD898F8B6D327D4B /* Pods-Continuous Integration Test UI Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83EDFBBAC962EAFE4FB9C428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCA85D2EE8AD2F5C7D452FA2 /* libPods-Continuous Integration Test UI Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF6FD2631B0F7E4C005370BA /* Continuous Integration Test UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF733BB81B0F758E009138A0 /* UITestCase.m */,
+				FF6FD25B1B0F7670005370BA /* KIFTestActor+Additions.h */,
+				FF6FD25C1B0F7670005370BA /* KIFTestActor+Additions.m */,
+				FF6FD2641B0F7E4C005370BA /* Supporting Files */,
+			);
+			path = "Continuous Integration Test UI Tests";
+			sourceTree = "<group>";
+		};
+		FF6FD2641B0F7E4C005370BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF6FD2651B0F7E4C005370BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FF72FE5F1B0E2E0500B9B866 = {
 			isa = PBXGroup;
 			children = (
 				FF72FE6A1B0E2E0500B9B866 /* Continuous Integration Test */,
-				FF72FE801B0E2E0500B9B866 /* Continuous Integration TestTests */,
 				FF733BAE1B0F2D05009138A0 /* ui.js */,
+				FF72FE801B0E2E0500B9B866 /* Continuous Integration TestTests */,
+				FF6FD2631B0F7E4C005370BA /* Continuous Integration Test UI Tests */,
 				FF72FE691B0E2E0500B9B866 /* Products */,
+				3F2898392F089EC44ACD3928 /* Pods */,
+				83EDFBBAC962EAFE4FB9C428 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +143,7 @@
 			children = (
 				FF72FE681B0E2E0500B9B866 /* Continuous Integration Test.app */,
 				FF72FE7D1B0E2E0500B9B866 /* Continuous Integration TestTests.xctest */,
+				FF6FD2621B0F7E4C005370BA /* Continuous Integration Test UI Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,6 +215,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FF6FD2611B0F7E4C005370BA /* Continuous Integration Test UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6FD26A1B0F7E4C005370BA /* Build configuration list for PBXNativeTarget "Continuous Integration Test UI Tests" */;
+			buildPhases = (
+				32C492B389D8B784989EB5CB /* Check Pods Manifest.lock */,
+				FF6FD25E1B0F7E4C005370BA /* Sources */,
+				FF6FD25F1B0F7E4C005370BA /* Frameworks */,
+				FF6FD2601B0F7E4C005370BA /* Resources */,
+				AEA9E0E3F91884DC32D82758 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6FD2691B0F7E4C005370BA /* PBXTargetDependency */,
+			);
+			name = "Continuous Integration Test UI Tests";
+			productName = "Continuous Integration Test UI Tests";
+			productReference = FF6FD2621B0F7E4C005370BA /* Continuous Integration Test UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FF72FE671B0E2E0500B9B866 /* Continuous Integration Test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF72FE871B0E2E0500B9B866 /* Build configuration list for PBXNativeTarget "Continuous Integration Test" */;
@@ -193,6 +279,10 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Sage;
 				TargetAttributes = {
+					FF6FD2611B0F7E4C005370BA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FF72FE671B0E2E0500B9B866;
+					};
 					FF72FE671B0E2E0500B9B866 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
@@ -217,11 +307,19 @@
 			targets = (
 				FF72FE671B0E2E0500B9B866 /* Continuous Integration Test */,
 				FF72FE7C1B0E2E0500B9B866 /* Continuous Integration TestTests */,
+				FF6FD2611B0F7E4C005370BA /* Continuous Integration Test UI Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FF6FD2601B0F7E4C005370BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FF72FE661B0E2E0500B9B866 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,7 +340,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32C492B389D8B784989EB5CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEA9E0E3F91884DC32D82758 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Continuous Integration Test UI Tests/Pods-Continuous Integration Test UI Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		FF6FD25E1B0F7E4C005370BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4BA8701B0F7F0200374B86 /* KIFTestActor+Additions.m in Sources */,
+				FF6FD26D1B0F7E7B005370BA /* UITestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FF72FE641B0E2E0500B9B866 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,6 +406,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FF6FD2691B0F7E4C005370BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF72FE671B0E2E0500B9B866 /* Continuous Integration Test */;
+			targetProxy = FF6FD2681B0F7E4C005370BA /* PBXContainerItemProxy */;
+		};
 		FF72FE7F1B0E2E0500B9B866 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FF72FE671B0E2E0500B9B866 /* Continuous Integration Test */;
@@ -293,6 +438,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FF6FD26B1B0F7E4C005370BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916FF84C041DA276B0A1FD08 /* Pods-Continuous Integration Test UI Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Continuous Integration Test UI Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Continuous Integration Test.app/Continuous Integration Test";
+			};
+			name = Debug;
+		};
+		FF6FD26C1B0F7E4C005370BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18D910BBD898F8B6D327D4B /* Pods-Continuous Integration Test UI Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Continuous Integration Test UI Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Continuous Integration Test.app/Continuous Integration Test";
+			};
+			name = Release;
+		};
 		FF72FE851B0E2E0500B9B866 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -431,6 +612,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FF6FD26A1B0F7E4C005370BA /* Build configuration list for PBXNativeTarget "Continuous Integration Test UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6FD26B1B0F7E4C005370BA /* Debug */,
+				FF6FD26C1B0F7E4C005370BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FF72FE631B0E2E0500B9B866 /* Build configuration list for PBXProject "Continuous Integration Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
