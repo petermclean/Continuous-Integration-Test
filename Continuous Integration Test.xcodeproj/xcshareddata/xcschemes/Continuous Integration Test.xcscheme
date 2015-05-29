@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF733BB31B0F758E009138A0"
+               BlueprintIdentifier = "FF6FD2611B0F7E4C005370BA"
                BuildableName = "Continuous Integration Test UI Tests.xctest"
                BlueprintName = "Continuous Integration Test UI Tests"
                ReferencedContainer = "container:Continuous Integration Test.xcodeproj">
@@ -70,7 +70,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF733BB31B0F758E009138A0"
+               BlueprintIdentifier = "FF6FD2611B0F7E4C005370BA"
                BuildableName = "Continuous Integration Test UI Tests.xctest"
                BlueprintName = "Continuous Integration Test UI Tests"
                ReferencedContainer = "container:Continuous Integration Test.xcodeproj">
