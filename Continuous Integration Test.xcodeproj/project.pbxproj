@@ -16,6 +16,7 @@
 		FF72FE931B0E2EBB00B9B866 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FE921B0E2EBB00B9B866 /* DataSource.swift */; };
 		FF72FE971B0E324200B9B866 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FE961B0E324200B9B866 /* DetailViewController.swift */; };
 		FF72FE981B0F1F1500B9B866 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72FE921B0E2EBB00B9B866 /* DataSource.swift */; };
+		FFDEC66C1B286A2F00E01262 /* Continuous_Integration_Test_UI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDEC66B1B286A2F00E01262 /* Continuous_Integration_Test_UI_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,10 +27,16 @@
 			remoteGlobalIDString = FF72FE671B0E2E0500B9B866;
 			remoteInfo = "Continuous Integration Test";
 		};
+		FFDEC66E1B286A2F00E01262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF72FE601B0E2E0500B9B866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF72FE671B0E2E0500B9B866;
+			remoteInfo = "Continuous Integration Test";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CCA85D2EE8AD2F5C7D452FA2 /* libPods-Continuous Integration Test UI Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Continuous Integration Test UI Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF72FE681B0E2E0500B9B866 /* Continuous Integration Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Continuous Integration Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF72FE6C1B0E2E0500B9B866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF72FE6D1B0E2E0500B9B866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +49,9 @@
 		FF72FE831B0E2E0500B9B866 /* Continuous_Integration_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continuous_Integration_TestTests.swift; sourceTree = "<group>"; };
 		FF72FE921B0E2EBB00B9B866 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		FF72FE961B0E324200B9B866 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FFDEC6691B286A2F00E01262 /* Continuous Integration Test UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Continuous Integration Test UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDEC66B1B286A2F00E01262 /* Continuous_Integration_Test_UI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continuous_Integration_Test_UI_Tests.swift; sourceTree = "<group>"; };
+		FFDEC66D1B286A2F00E01262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,24 +69,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFDEC6661B286A2F00E01262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83EDFBBAC962EAFE4FB9C428 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CCA85D2EE8AD2F5C7D452FA2 /* libPods-Continuous Integration Test UI Tests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		FF72FE5F1B0E2E0500B9B866 = {
 			isa = PBXGroup;
 			children = (
 				FF72FE6A1B0E2E0500B9B866 /* Continuous Integration Test */,
 				FF72FE801B0E2E0500B9B866 /* Continuous Integration TestTests */,
+				FFDEC66A1B286A2F00E01262 /* Continuous Integration Test UI Tests */,
 				FF72FE691B0E2E0500B9B866 /* Products */,
-				83EDFBBAC962EAFE4FB9C428 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +94,7 @@
 			children = (
 				FF72FE681B0E2E0500B9B866 /* Continuous Integration Test.app */,
 				FF72FE7D1B0E2E0500B9B866 /* Continuous Integration TestTests.xctest */,
+				FFDEC6691B286A2F00E01262 /* Continuous Integration Test UI Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +163,15 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		FFDEC66A1B286A2F00E01262 /* Continuous Integration Test UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FFDEC66B1B286A2F00E01262 /* Continuous_Integration_Test_UI_Tests.swift */,
+				FFDEC66D1B286A2F00E01262 /* Info.plist */,
+			);
+			path = "Continuous Integration Test UI Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,13 +210,32 @@
 			productReference = FF72FE7D1B0E2E0500B9B866 /* Continuous Integration TestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FFDEC6681B286A2F00E01262 /* Continuous Integration Test UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDEC6701B286A2F00E01262 /* Build configuration list for PBXNativeTarget "Continuous Integration Test UI Tests" */;
+			buildPhases = (
+				FFDEC6651B286A2F00E01262 /* Sources */,
+				FFDEC6661B286A2F00E01262 /* Frameworks */,
+				FFDEC6671B286A2F00E01262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFDEC66F1B286A2F00E01262 /* PBXTargetDependency */,
+			);
+			name = "Continuous Integration Test UI Tests";
+			productName = "Continuous Integration Test UI Tests";
+			productReference = FFDEC6691B286A2F00E01262 /* Continuous Integration Test UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		FF72FE601B0E2E0500B9B866 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Sage;
 				TargetAttributes = {
 					FF72FE671B0E2E0500B9B866 = {
@@ -205,6 +243,10 @@
 					};
 					FF72FE7C1B0E2E0500B9B866 = {
 						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FF72FE671B0E2E0500B9B866;
+					};
+					FFDEC6681B286A2F00E01262 = {
+						CreatedOnToolsVersion = 7.0;
 						TestTargetID = FF72FE671B0E2E0500B9B866;
 					};
 				};
@@ -224,6 +266,7 @@
 			targets = (
 				FF72FE671B0E2E0500B9B866 /* Continuous Integration Test */,
 				FF72FE7C1B0E2E0500B9B866 /* Continuous Integration TestTests */,
+				FFDEC6681B286A2F00E01262 /* Continuous Integration Test UI Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,6 +283,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FF72FE7B1B0E2E0500B9B866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDEC6671B286A2F00E01262 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,6 +319,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFDEC6651B286A2F00E01262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDEC66C1B286A2F00E01262 /* Continuous_Integration_Test_UI_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -276,6 +334,11 @@
 			isa = PBXTargetDependency;
 			target = FF72FE671B0E2E0500B9B866 /* Continuous Integration Test */;
 			targetProxy = FF72FE7E1B0E2E0500B9B866 /* PBXContainerItemProxy */;
+		};
+		FFDEC66F1B286A2F00E01262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF72FE671B0E2E0500B9B866 /* Continuous Integration Test */;
+			targetProxy = FFDEC66E1B286A2F00E01262 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -320,6 +383,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -386,6 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Continuous Integration Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sage.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -396,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Continuous Integration Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sage.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -414,6 +480,7 @@
 				);
 				INFOPLIST_FILE = "Continuous Integration TestTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sage.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Continuous Integration Test.app/Continuous Integration Test";
 			};
@@ -429,8 +496,36 @@
 				);
 				INFOPLIST_FILE = "Continuous Integration TestTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sage.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Continuous Integration Test.app/Continuous Integration Test";
+			};
+			name = Release;
+		};
+		FFDEC6711B286A2F00E01262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Continuous Integration Test UI Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sage.Continuous-Integration-Test-UI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Continuous Integration Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FFDEC6721B286A2F00E01262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Continuous Integration Test UI Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sage.Continuous-Integration-Test-UI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Continuous Integration Test";
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -463,6 +558,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FFDEC6701B286A2F00E01262 /* Build configuration list for PBXNativeTarget "Continuous Integration Test UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDEC6711B286A2F00E01262 /* Debug */,
+				FFDEC6721B286A2F00E01262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
