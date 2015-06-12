@@ -32,14 +32,17 @@ class Continuous_Integration_Test_UI_Tests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let app = XCUIApplication()
         let backButton = app.buttons.elementAtIndex(0)
-        app.tables.staticTexts["First"].tap()
+        
+        app.cells.elementAtIndex(0).tap()
         XCTAssertTrue(app.staticTexts["First"].exists)
         XCTAssertTrue(app.staticTexts.elementMatchingPredicate(NSPredicate(format: "label CONTAINS 'tenderloin ball tip capicola, kielbasa sirloin sausage turkey'")).exists)
         backButton.tap()
+        
         app.tables.staticTexts["Second"].tap()
         XCTAssertTrue(app.staticTexts["Second"].exists)
         XCTAssertTrue(app.staticTexts.elementMatchingPredicate(NSPredicate(format: "label CONTAINS 'capicola pig pastrami short loin pancetta frankfurter'")).exists)
         backButton.tap()
+        
         app.tables.staticTexts["Third"].tap()
         XCTAssertTrue(app.staticTexts["Third"].exists)
         XCTAssertTrue(app.staticTexts.elementMatchingPredicate(NSPredicate(format: "label CONTAINS 'sirloin boudin exercitation mollit deserunt'")).exists)
