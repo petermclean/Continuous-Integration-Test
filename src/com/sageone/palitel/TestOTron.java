@@ -45,7 +45,10 @@ public class TestOTron {
     public void tearDown(){
         // Generates a report of the test case.
         // For more information - http://experitest.com/studio/help2/WebHelp/help.htm#Report_Of_Executed_Script.htm .
-        client.generateReport(false);
+        File reports = newFile(System.getProperty("user.dir"), "reports");
+        reports.mkdirs();
+        client.setReporter("xml", reports.getAbsolutePath(), "Untitled");
+        client.generateReport(true);
         // Releases the client so that other clients can approach the agent in the near future. 
         client.releaseClient();
     }
