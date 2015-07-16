@@ -4,7 +4,7 @@ import org.junit.*;
 /**
  *
 */
-public class test_o_tron {
+public class TestOTron {
     private String host = "10.203.23.62";
     private int port = 8889;
     private String projectBaseDirectory = "/Users/Shared/Jenkins/palitel";
