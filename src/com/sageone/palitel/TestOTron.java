@@ -1,6 +1,7 @@
 package com.sageone.palitel;
 import com.experitest.client.*;
 import org.junit.*;
+import java.io.File;
 /**
  *
 */
@@ -45,7 +46,7 @@ public class TestOTron {
     public void tearDown(){
         // Generates a report of the test case.
         // For more information - http://experitest.com/studio/help2/WebHelp/help.htm#Report_Of_Executed_Script.htm .
-        File reports = newFile(System.getProperty("user.dir"), "reports");
+        File reports = new File(System.getProperty("user.dir"), "reports");
         reports.mkdirs();
         client.setReporter("xml", reports.getAbsolutePath(), "Untitled");
         client.generateReport(true);
