@@ -1,4 +1,4 @@
-package com.sageone.palitelt;
+package com.sageone.palitel;
 import com.experitest.client.*;
 import org.junit.*;
 /**
