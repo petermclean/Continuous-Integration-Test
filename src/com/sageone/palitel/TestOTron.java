@@ -1,7 +1,6 @@
 package com.sageone.palitel;
 import com.experitest.client.*;
 import org.junit.*;
-import java.io.File;
 /**
  *
 */
@@ -16,9 +15,8 @@ public class TestOTron {
         client = new Client(host, port, true);
         client.setProjectBaseDirectory(projectBaseDirectory);
         
-        File reports = new File(System.getProperty("user.dir"), "reports");
-        reports.mkdirs();
-        client.setReporter("xml", reports.getAbsolutePath(), "TestOTron");    }
+        client.setReporter("xml", "reports", "TestOTron");
+    }
 
     @Test
     public void testtest_o_tron(){
