@@ -25,7 +25,7 @@ target: compile
 <junit>
 <formatter type="xml" usefile="true" />
 <classpath refid="tests.classpath" />
-<test name="com.sageone.palitel.test-o-tron" />
+<test name="com.sageone.palitel.TestOTron" />
 </junit>
 </target>
 </project>
