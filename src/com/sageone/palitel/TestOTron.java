@@ -14,7 +14,7 @@ public class TestOTron {
     public void setUp(){
         client = new Client(host, port, true);
         client.setProjectBaseDirectory(projectBaseDirectory);
-        client.setReporter("xml", "/tmp/reports". "TestOTron");
+        client.setReporter("xml", "/tmp/reports", "TestOTron");
         //client.setReporter("xml", "reports", "TestOTron");
     }
 
