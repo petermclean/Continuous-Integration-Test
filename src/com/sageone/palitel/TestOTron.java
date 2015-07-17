@@ -14,8 +14,7 @@ public class TestOTron {
     public void setUp(){
         client = new Client(host, port, true);
         client.setProjectBaseDirectory(projectBaseDirectory);
-        client.setReporter("xml", "/Users/Shared/Jenkins/palitel/reports");
-        //client.setReporter("xml", System.getProperty("user.dir") + "/reports");
+        client.setReporter("xml", System.getProperty("user.dir") + "/reports");
         //client.setReporter("xml", "reports", "TestOTron");
     }
 
