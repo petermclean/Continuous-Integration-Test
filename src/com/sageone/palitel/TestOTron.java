@@ -14,7 +14,7 @@ public class TestOTron {
     public void setUp(){
         client = new Client(host, port, true);
         client.setProjectBaseDirectory(projectBaseDirectory);
-        client.setReporter("xml", System.getProperty("user.dir") + "/reports");
+        client.setReporter("xml", "/tmp/reports". "TestOTron");
         //client.setReporter("xml", "reports", "TestOTron");
     }
 
@@ -46,7 +46,7 @@ public class TestOTron {
     public void tearDown(){
         // Generates a report of the test case.
         // For more information - http://experitest.com/studio/help2/WebHelp/help.htm#Report_Of_Executed_Script.htm .
-        client.generateReport(true);
+        client.generateReport(false);
         // Releases the client so that other clients can approach the agent in the near future. 
         client.releaseClient();
     }
