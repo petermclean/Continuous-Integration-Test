@@ -7,16 +7,14 @@ import org.junit.*;
 public class TestOTron {
     private String host = "10.203.23.29";
     private int port = 8889;
-    private String projectBaseDirectory = "C:/Jenkins/palitel";
-    //private String projectBaseDirectory = "/Users/Shared/Jenkins/palitel";
+    private String projectBaseDirectory = "/Users/Shared/Jenkins/palitel";
     protected Client client = null;
 
     @Before
     public void setUp(){
         client = new Client(host, port, true);
         client.setProjectBaseDirectory(projectBaseDirectory);
-        //client.setReporter("xml", "reports", "TestOTron");
-        client.setReporter("xml", "C:/reports", "TestOTron");
+        client.setReporter("xml", "reports", "TestOTron");
     }
 
     @Test
