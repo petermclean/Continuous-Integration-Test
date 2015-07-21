@@ -14,13 +14,13 @@ public class TestOTron {
     public void setUp(){
         client = new Client(host, port, true);
         client.setProjectBaseDirectory(projectBaseDirectory);
-        client.setReporter("xml", "/volumes/palitel", "TestOTron");
+        client.setReporter("xml", "/palitel", "TestOTron");
     }
 
     @Test
     public void testtest_o_tron(){
         client.setDevice("ios_app:Wilkinson, Neil’s iPhone");
-        if(client.install("/volumes/palitel/archive.ipa", true, false)){
+        if(client.install("/palitel/archive.ipa", true, false)){
             // If statement
         }
         client.launch("com.sage.Continuous-Integration-Test", true, true);
