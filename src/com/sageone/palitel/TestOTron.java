@@ -20,7 +20,10 @@ public class TestOTron {
     @Test
     public void testtest_o_tron(){
         client.setDevice("ios_app:Wilkinson, Neil’s iPhone");
-        if(client.install("/palitel/archive.ipa", true, false)){
+        if(client.install("/Applications/SeeTest/bin/ipas/EriBankO.ipa", true, false)){
+            // If statement
+        }
+        /*if(client.install("/palitel/archive.ipa", true, false)){
             // If statement
         }
         client.launch("com.sage.Continuous-Integration-Test", true, true);
@@ -41,7 +44,7 @@ public class TestOTron {
         if(client.waitForElement("NATIVE", "partial_text=Back", 0, 60000)){
             // If statement
         }
-        client.click("NATIVE", "text=Back", 0, 1);
+        client.click("NATIVE", "text=Back", 0, 1);*/
     }
 
     @After
