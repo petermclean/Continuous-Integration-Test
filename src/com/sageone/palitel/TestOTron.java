@@ -48,6 +48,8 @@ public class TestOTron {
             // If statement
         }
         client.click("NATIVE", "text=Back", 0, 1);*/
+         if(client.uninstall("com.sage.Continuous-Integration-Test")){
+        }
     }
 
     @After
