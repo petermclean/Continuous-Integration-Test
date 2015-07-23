@@ -29,8 +29,8 @@ public class TestOTron {
         /*if(client.install("/palitel/archive.ipa", true, false)){
             // If statement
         }*/
-        //client.launch("com.experitest.ExperiBank", true, true);
-        /*client.verifyElementFound("NATIVE", "accessibilityLabel=First", 0);
+        client.launch("com.sage.Continuous-Integration-Test", true, true);
+        client.verifyElementFound("NATIVE", "accessibilityLabel=First", 0);
         client.verifyElementFound("NATIVE", "text=Bacon ipsum dolor amet tenderloin ball tip capicola, kielbasa sirloin sausage turkey frankfurter flank ground round. Ham capicola frankfurter, fatback cow shankle shank. Ball tip boudin flank jowl swine, kevin picanha ground round alcatra pastrami t-bone. Ball tip shoulder pancetta salami meatball kielbasa chuck shank pork belly ground round picanha strip steak.", 0);
         if(client.waitForElement("NATIVE", "text=First", 0, 10000)){
             // If statement
