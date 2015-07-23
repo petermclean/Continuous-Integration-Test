@@ -20,9 +20,12 @@ public class TestOTron {
     @Test
     public void testtest_o_tron(){
         client.setDevice("ios_app:Wilkinson, Neil’s iPhone");
-        if(client.install("/Applications/SeeTest/bin/ipas/EriBankO.ipa", true, false)){
+         if(client.install("/palitel/archive.ipa", true, false)){
             // If statement
         }
+        //if(client.install("/Applications/SeeTest/bin/ipas/EriBankO.ipa", true, false)){
+            // If statement
+        //}
         /*if(client.install("/palitel/archive.ipa", true, false)){
             // If statement
         }
