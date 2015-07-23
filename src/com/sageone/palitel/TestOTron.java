@@ -47,8 +47,9 @@ public class TestOTron {
         if(client.waitForElement("NATIVE", "partial_text=Back", 0, 60000)){
             // If statement
         }
-        client.click("NATIVE", "text=Back", 0, 1);*/
-         if(client.uninstall("com.sage.Continuous-Integration-Test")){
+        client.click("NATIVE", "text=Back", 0, 1);
+    
+        if(client.uninstall("com.sage.Continuous-Integration-Test")){
         }
     }
 
